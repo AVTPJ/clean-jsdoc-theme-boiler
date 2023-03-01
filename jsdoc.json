@@ -19,31 +19,29 @@
       "verbose": true,
       "template": "node_modules/clean-jsdoc-theme",
       "theme_opts": {
-          "default_theme": "dark"
+        "default_theme": "dark",
+        "includeFilesListInHomepage": false,
+        "base_url": "https://github.com/ankitskvmdam/clean-jsdoc-theme/",
+        "homepageTitle": "Home Page Title",
+        "title": "clean-jsodc-theme",
+        "footer": "This is footer",
+        "menu": [
+          {
+            "title": "Website",
+            "link": "https://ankdev.me/clean-jsdoc-theme/dark/",
+            "target": "_blank",
+            "class": "some-class",
+            "id": "some-id"
+          },
+          {
+            "title": "Website",
+            "link": "https://ankdev.me/clean-jsdoc-theme/dark/",
+            "target": "_blank",
+            "class": "some-class",
+            "id": "some-id"
+          }
+        ]
       }
     },
-    "theme_opts": {
-      "includeFilesListInHomepage": false,
-      "base_url": "https://github.com/ankitskvmdam/clean-jsdoc-theme/",
-      "homepageTitle": "Home Page Title",
-      "title": "clean-jsodc-theme",
-      "footer": "This is footer",
-      "menu": [
-        {
-          "title": "Website",
-          "link": "https://ankdev.me/clean-jsdoc-theme/dark/",
-          "target": "_blank",
-          "class": "some-class",
-          "id": "some-id"
-        },
-        {
-          "title": "Website",
-          "link": "https://ankdev.me/clean-jsdoc-theme/dark/",
-          "target": "_blank",
-          "class": "some-class",
-          "id": "some-id"
-        }
-      ]
-    }
   }
   
